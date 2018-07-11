@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <scene camera="0,1,-10,0,0,0" template="..\Templates\master.xml">
-	<Shot enabled="True" end="904.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="896.0">
+	<Shot enabled="True" end="328.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="320.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,8.0,14.0,0,2,8.0,14.0,8.0,7.0,0.0,0.0,0,2</Channel>
@@ -21,7 +21,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="912.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="904.0">
+	<Shot enabled="True" end="336.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="328.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,8.0,14.0,0,2,8.0,14.0,8.0,7.0,0.0,0.0,0,2</Channel>
@@ -42,7 +42,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="920.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="912.0">
+	<Shot enabled="True" end="344.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="336.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,8.0,14.0,0,2,8.0,14.0,8.0,7.0,0.0,0.0,0,2</Channel>
@@ -63,7 +63,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="928.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="920.0">
+	<Shot enabled="True" end="352.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="344.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,8.0,14.0,0,2,8.0,14.0,8.0,7.0,0.0,0.0,0,2</Channel>
@@ -84,7 +84,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="944.0" name="14 loop2" preroll="0.0" scene="14" speed="1.0" start="928.0">
+	<Shot enabled="True" end="368.0" name="14 loop2" preroll="0.0" scene="14" speed="1.0" start="352.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,16.0,28.0,0,2,16.0,28.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -105,7 +105,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="960.0" name="14" preroll="0.0" scene="14" speed="1.0" start="944.0">
+	<Shot enabled="True" end="384.0" name="14" preroll="0.0" scene="14" speed="1.0" start="368.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,16.0,28.0,0,2,16.0,28.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -126,7 +126,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="968.0" name="14" preroll="0.0" scene="14" speed="1.0" start="960.0">
+	<Shot enabled="True" end="392.0" name="14" preroll="0.0" scene="14" speed="1.0" start="384.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,1.5,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,0.0,8.0,14.0,0,2,8.0,14.0,8.0,14.0,0.0,0.0,0,2</Channel>
@@ -147,7 +147,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="976.0" name="14" preroll="0.0" scene="14" speed="1.0" start="968.0">
+	<Shot enabled="True" end="400.0" name="14" preroll="0.0" scene="14" speed="1.0" start="392.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,-1.5,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,0.0,8.0,14.0,0,2,8.0,14.0,8.0,14.0,0.0,0.0,0,2</Channel>
@@ -168,7 +168,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="1024.0" name="14 loop1b" preroll="0.0" scene="14" speed="1.0" start="976.0">
+	<Shot enabled="True" end="448.0" name="14 loop1b" preroll="0.0" scene="14" speed="1.0" start="400.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,0.0,64.0,208.0,0,2,64.0,208.0,64.0,208.0,0.0,0.0,0,2</Channel>
@@ -189,7 +189,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 	</Shot>
-	<Shot enabled="True" end="1096.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="1088.0">
+	<Shot enabled="True" end="520.0" name="14 loop1" preroll="0.0" scene="14" speed="1.0" start="512.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,8.0,14.0,0,2,8.0,14.0,8.0,7.0,0.0,0.0,0,2</Channel>
@@ -210,7 +210,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,4.0,0.0,inf,0,4,0.0,0.0,1.0,1.0,0.0,inf,0,4,0.0,0.0,2.0,4.0,0.0,inf,0,4,0.0,0.0,3.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,4.0,0.0,inf,0,4,0.0,0.0,5.0,1.0,0.0,inf,0,4,0.0,0.0,6.0,4.0,0.0,inf,0,4,0.0,0.0,7.0,1.0,0.0,inf,0,4</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,inf,0,4,0.0,0.0,1.0,1.0,0.0,inf,0,4,0.0,0.0,2.0,0.0,0.0,inf,0,4,0.0,0.0,3.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,0.0,0.0,inf,0,4,0.0,0.0,5.0,1.0,0.0,inf,0,4,0.0,0.0,6.0,0.0,0.0,inf,0,4,0.0,0.0,7.0,1.0,0.0,inf,0,4</Channel>
 	</Shot>
-	<Shot enabled="True" end="1112.0" name="14 loop2" preroll="0.0" scene="14" speed="1.0" start="1096.0">
+	<Shot enabled="True" end="536.0" name="14 loop2" preroll="0.0" scene="14" speed="1.0" start="520.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,16.0,28.0,0,2,16.0,28.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -231,7 +231,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,4.0,0.0,inf,0,4,0.0,0.0,1.0,1.0,0.0,inf,0,4,0.0,0.0,2.0,4.0,0.0,inf,0,4,0.0,0.0,3.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,4.0,0.0,inf,0,4,0.5,12.0,4.5,16.0,0.5,-15.0,0,2,0.5,-15.0,5.0,1.0,0.5,15.0,0,2,0.5,15.0,5.5,16.0,0.5,-12.0,0,2,0.0,0.0,6.0,4.0,0.0,inf,0,4,0.0,0.0,7.0,1.0,0.0,inf,0,4,3.0,3.0,10.0,4.0,0.875,-3.0,0,2,0.875,-3.0,10.875,1.0,0.125,3.0,0,2,0.125,3.0,11.0,4.0,0.375,-3.0,0,2,0.375,-3.0,11.375,1.0,0.125,3.0,0,2,0.125,3.0,11.5,4.0,0.5,-3.0,0,2,0.0,0.0,12.0,1.0,0.0,inf,0,4,2.0,3.0,14.0,4.0,0.875,-3.0,0,2,0.875,-3.0,14.875,1.0,0.125,3.0,0,2,0.125,3.0,15.0,4.0,0.375,-3.0,0,2,0.375,-3.0,15.375,1.0,0.125,3.0,0,2,0.125,3.0,15.5,4.0,0.5,-3.0,0,2,0.5,-3.0,16.0,1.0,0.0,0.0,0,2</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,inf,0,4,0.0,0.0,2.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,0.0,0.0,inf,0,4,0.0,0.0,6.0,1.0,0.0,inf,0,4,0.0,0.0,8.0,0.0,0.0,inf,0,4,0.0,0.0,10.0,1.0,0.0,inf,0,4,0.0,0.0,12.0,0.0,0.0,inf,0,4,0.0,0.0,14.0,1.0,0.0,inf,0,4</Channel>
 	</Shot>
-	<Shot enabled="True" end="1128.0" name="14" preroll="0.0" scene="14" speed="1.0" start="1112.0">
+	<Shot enabled="True" end="552.0" name="14" preroll="0.0" scene="14" speed="1.0" start="536.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,16.0,28.0,0,2,16.0,28.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -252,7 +252,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,4.0,0.0,inf,0,4,0.0,0.0,1.0,1.0,0.0,inf,0,4,0.0,0.0,2.0,4.0,0.0,inf,0,4,0.0,0.0,3.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,4.0,0.0,inf,0,4,0.5,12.0,4.5,16.0,0.5,-15.0,0,2,0.5,-15.0,5.0,1.0,0.5,15.0,0,2,0.5,15.0,5.5,16.0,0.5,-12.0,0,2,0.0,0.0,6.0,4.0,0.0,inf,0,4,0.0,0.0,7.0,1.0,0.0,inf,0,4,3.0,3.0,10.0,4.0,0.875,-3.0,0,2,0.875,-3.0,10.875,1.0,0.125,3.0,0,2,0.125,3.0,11.0,4.0,0.375,-3.0,0,2,0.375,-3.0,11.375,1.0,0.125,3.0,0,2,0.125,3.0,11.5,4.0,0.5,-3.0,0,2,0.0,0.0,12.0,1.0,0.0,inf,0,4,2.0,3.0,14.0,4.0,0.875,-3.0,0,2,0.875,-3.0,14.875,1.0,0.125,3.0,0,2,0.125,3.0,15.0,4.0,0.375,-3.0,0,2,0.375,-3.0,15.375,1.0,0.125,3.0,0,2,0.125,3.0,15.5,4.0,0.5,-3.0,0,2,0.5,-3.0,16.0,1.0,0.0,0.0,0,2</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,inf,0,4,0.0,0.0,2.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,0.0,0.0,inf,0,4,0.0,0.0,6.0,1.0,0.0,inf,0,4,0.0,0.0,8.0,0.0,0.0,inf,0,4,0.0,0.0,10.0,1.0,0.0,inf,0,4,0.0,0.0,12.0,0.0,0.0,inf,0,4,0.0,0.0,14.0,1.0,0.0,inf,0,4</Channel>
 	</Shot>
-	<Shot enabled="True" end="1144.0" name="14" preroll="-16.0" scene="14" speed="-1.0" start="1128.0">
+	<Shot enabled="True" end="568.0" name="14" preroll="-16.0" scene="14" speed="-1.0" start="552.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,0.0,-7.0,16.0,28.0,0,2,16.0,28.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -273,7 +273,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,4.0,0.0,inf,0,4,0.0,0.0,1.0,1.0,0.0,inf,0,4,0.0,0.0,2.0,4.0,0.0,inf,0,4,0.0,0.0,3.0,1.0,0.0,inf,0,4,0.0,0.0,4.0,4.0,0.0,inf,0,4,0.5,12.0,4.5,16.0,0.5,-15.0,0,2,0.5,-15.0,5.0,1.0,0.5,15.0,0,2,0.5,15.0,5.5,16.0,0.5,-12.0,0,2,0.0,0.0,6.0,4.0,0.0,inf,0,4,0.0,0.0,7.0,1.0,0.0,inf,0,4,3.0,3.0,10.0,4.0,0.875,-3.0,0,2,0.875,-3.0,10.875,1.0,0.125,3.0,0,2,0.125,3.0,11.0,4.0,0.375,-3.0,0,2,0.375,-3.0,11.375,1.0,0.125,3.0,0,2,0.125,3.0,11.5,4.0,0.5,-3.0,0,2,0.0,0.0,12.0,1.0,0.0,inf,0,4,2.0,3.0,14.0,4.0,0.875,-3.0,0,2,0.875,-3.0,14.875,1.0,0.125,3.0,0,2,0.125,3.0,15.0,4.0,0.375,-3.0,0,2,0.375,-3.0,15.375,1.0,0.125,3.0,0,2,0.125,3.0,15.5,4.0,0.5,-3.0,0,2,0.5,-3.0,16.0,1.0,0.0,0.0,0,2</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,inf,0,4</Channel>
 	</Shot>
-	<Shot enabled="True" end="1152.0" name="14 loop2" preroll="-16.0" scene="14" speed="-1.0" start="1144.0">
+	<Shot enabled="True" end="576.0" name="14 loop2" preroll="-16.0" scene="14" speed="-1.0" start="568.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,8.0,7.0,0.0,0.0,0,3,8.0,14.0,16.0,21.0,0.0,0.0,0,2</Channel>
@@ -294,7 +294,7 @@
 		<Channel mode="hermite" name="uPixelate">0.0,0.0,0.0,1.0,8.0,1.5,0,2,8.0,1.5,8.0,2.5,8.0,1.5,0,0,8.0,1.5,16.0,4.0,0.0,0.0,0,2</Channel>
 		<Channel mode="hermite" name="uPalettize">0.0,0.0,0.0,0.0,0.0,inf,0,4</Channel>
 	</Shot>
-	<Shot enabled="True" end="1156.0" name="14 goat" preroll="0.0" scene="14" speed="1.0" start="1152.0">
+	<Shot enabled="True" end="580.0" name="14 goat" preroll="0.0" scene="14" speed="1.0" start="576.0">
 		<Channel mode="hermite" name="uOrigin.x">0.0,0.0,0.0,0.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.y">0.0,0.0,0.0,2.0,0.0,0.0,0,0</Channel>
 		<Channel mode="hermite" name="uOrigin.z">0.0,0.0,8.0,7.0,0.0,0.0,0,3</Channel>
