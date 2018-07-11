@@ -1,0 +1,133 @@
+<template>
+    <pass buffer="0" static="1" name="Lensdirt texture">
+        <global path="header.glsl"/>
+        <global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <global path="lensdirt.glsl"/>
+	</pass>
+
+    <pass buffer="16" static="1" size="1024" name="noise">
+		<global path="header.glsl"/>
+		<global path="noiselib.glsl"/>
+		<global path="texture0.glsl"/>
+	</pass>
+
+    <pass buffer="17" static="1" size="1024" name="noise">
+		<global path="header.glsl"/>
+		<global path="noiselib.glsl"/>
+		<global path="texture1.glsl"/>
+	</pass>
+
+    <pass buffer="1" input0="16" input1="16" input2="16" input3="16" input4="17" factor="8" name="Prepass">
+		<global path="header.glsl"/>
+		<section path="settings.glsl"/>
+		<global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+		<shared path="shared.glsl"/>
+		<section path="content.glsl"/>
+        <global path="tracer.glsl"/>
+        <global path="prepass.glsl"/>
+	</pass>
+
+	<!-- 0: shaded pixel, distance in alpha, 1: world point, packed normal in alpha, 2: specular color, roughness in alpha -->
+    <pass buffer="2" outputs="3" input0="1" input1="1" input2="1" input3="16" input4="17" name="Trace and shade main">
+        <global path="header.glsl"/>
+		<section path="settings.glsl"/>
+        <global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <shared path="shared.glsl"/>
+        <section path="content.glsl"/>
+        <global path="tracer.glsl"/>
+        <global path="main.glsl"/>
+	</pass>
+    <pass buffer="3" input0="2.0" input1="2.1" input2="2.2" input3="16" input4="17" name="Trace and shade reflection">
+        <global path="header.glsl"/>
+		<section path="settings.glsl"/>
+        <global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <shared path="shared.glsl"/>
+        <section path="content.glsl"/>
+        <global path="tracer.glsl"/>
+        <global path="rpass.glsl"/>
+	</pass>
+
+    <!-- Blur reflections here -->
+	<pass buffer="4" input0="3" name="Blur refl X 1">
+		<global path="directionalblurrefl.glsl">
+			<uniform name="uDirection" value="1,0"/>
+			<uniform name="uBlurSize" value="2"/>
+			<uniform name="g" value="1"/>
+		</global>
+	</pass>
+	<pass buffer="3" input0="4" name="Blur refl Y 1">
+		<global path="directionalblurrefl.glsl">
+			<uniform name="uDirection" value="0,1"/>
+			<uniform name="uBlurSize" value="2"/>
+			<uniform name="g" value="1"/>
+		</global>
+	</pass>
+	<pass buffer="4" input0="3" name="Blur refl X 2">
+		<global path="directionalblurrefl.glsl">
+			<uniform name="uDirection" value="1,0"/>
+			<uniform name="uBlurSize" value="3"/>
+			<uniform name="g" value="1"/>
+		</global>
+	</pass>
+	<pass buffer="3" input0="4" name="Blur refl Y 2">
+		<global path="directionalblurrefl.glsl">
+			<uniform name="uDirection" value="0,1"/>
+			<uniform name="uBlurSize" value="3"/>
+			<uniform name="g" value="1"/>
+		</global>
+	</pass>
+
+    <pass buffer="4" input0="2" input1="3" name="Merge reflection into result">
+		<global path="header.glsl"/>
+		<section path="settings.glsl"/>
+		<global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <shared path="shared.glsl"/>
+        <section path="content.glsl"/>
+        <!--<global path="tracer.glsl"/>-->
+		<global path="merge.glsl"/>
+	</pass>
+    <pass buffer="2" outputs="3" input0="4" input1="16" name="Overlays">
+        <global path="header.glsl"/>
+		<section path="settings.glsl"/>
+        <global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <shared path="shared.glsl"/>
+        <section path="prefxoverlay.glsl"/>
+	</pass>
+    <pass buffer="4" input0="2" name="FXAA3">
+        <global path="fxaa3.glsl"/>
+	</pass>
+	<pass buffer="3" input0="4" name="Bokeh DoF first pass">
+		<global path="bokehheader.glsl"/>
+		<global path="bokehfirst.glsl"/>
+	</pass>
+	<pass buffer="2" outputs="3" input0="3" name="Bokeh DoF second pass">
+		<global path="bokehheader.glsl"/>
+		<global path="bokehsecond.glsl"/>
+	</pass>
+
+	<!-- #include bloom.ixml -->
+
+	<pass buffer="2" outputs="3" input0="3" name="ChromAb">
+		<global path="chromab.glsl"/>
+	</pass>
+
+    <pass buffer="3" input0="2" name="Overlays">
+        <global path="header.glsl"/>
+		<section path="settings.glsl"/>
+        <global path="noiselib.glsl"/>
+        <global path="sdf.glsl"/>
+        <shared path="shared.glsl"/>
+        <section path="postfxoverlay.glsl"/>
+	</pass>
+
+	<pass input0="3" name="sRgb conversion">
+        <global path="header.glsl"/>
+		<global path="present.glsl"/>
+	</pass>
+</template>
