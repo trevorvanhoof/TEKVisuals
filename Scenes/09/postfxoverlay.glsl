@@ -1,6 +1,6 @@
 // Pass that forwards the texture by default, but allows injection of additional filters.
 
-//uniform float uPostPixelate;
+uniform float uPostPixelate;
 //uniform float uHexOverlay;
 //uniform float uColorizeMode;
 //uniform vec2 uPostHexagonSize;
@@ -8,7 +8,9 @@
 void main()
 {
     ivec2 texl = ivec2(gl_FragCoord.xy); // (uPostPixelate!=0.0)?pixelateHexagons(uPostHexagonSize):ivec2(gl_FragCoord.xy);
+    if(uPostPixelate >= 2.0) texl=texl/int(uPostPixelate)*int(uPostPixelate);
     outColor0 = texelFetch(uImages[0],texl,0);
+    outColor0.xyz = mix(outColor0.xyz, paletteGameBoy(outColor0.xyz, 0.0), uPostPixelate / 16.0);
 
     /*if(uHexOverlay!=0.0)
     outColor0.xyz = hexagonOverlay(outColor0.xyz, uPostHexagonSize);
